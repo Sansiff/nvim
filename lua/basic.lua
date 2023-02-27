@@ -1,6 +1,6 @@
 vim.o.number=true
-vim.o.tabstop=2
-vim.o.shiftwidth=2
+vim.o.tabstop=4
+vim.o.shiftwidth=4
 vim.o.smartindent=true
 vim.o.termguicolors=true
 vim.o.cursorline=true
