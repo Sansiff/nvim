@@ -8,3 +8,7 @@ vim.o.expandtab=true
 vim.o.swapfile=false
 
 vim.cmd[[colorscheme zephyr]]
+
+vim.g.airline_theme="owo"
+vim.g.airline_powerline_fonts=1
+
