@@ -1,5 +1,4 @@
 -- nvim-cmp
-
 local cmp = require('cmp')
 cmp.setup({
   sources = cmp.config.sources({
@@ -7,7 +6,6 @@ cmp.setup({
   })
 })
 
-
-require 'lspconfig'.pyright.setup {}
-require 'lspconfig'.clangd.setup {}
-require 'lspconfig'.cmake.setup {}
+require'lspconfig'.pyright.setup{}
+require'lspconfig'.clangd.setup{}
+require'lspconfig'.cmake.setup{}
